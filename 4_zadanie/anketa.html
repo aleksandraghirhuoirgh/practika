@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+<form>
+    <h1>Анкета</h1>
+<div><label for="FIO">Введите ваше имя</label>
+<br><input type="text" id="FIO" name="FIO" placeholder="ФИО"></div>
+<br><label for="hobbie" style="padding-top: 100px;">1.Выберите одно или несколько хобби</label>
+<table name="hobbie">
+<tr><td><input type="checkbox" value="yes">чтение</td><td><input type="checkbox" value="yes">спорт</td></tr>
+<tr><td><input type="checkbox" value="yes">рисование</td><td><input type="checkbox" value="yes">прогулка</td></tr>
+<tr><td><input type="checkbox" value="yes">музыка</td><td><input type="checkbox" value="yes">танцы</td></tr>
+
+</table>
+<br><label for="kf">2. Ваша любимая группа (я принимаю любой музыкальный вкус)</label>
+<div><select id="kf" name="lalal">
+    <optgroup label="ответьте лампабикт"></optgroup>
+    <option value="lampabikt">лампабикт</option>
+    <option value="variant1">тоже лампабикт</option>
+    <option value="variant2">и еще раз лампабикт</option>
+</select></div>
+<br><span><input type="checkbox" value="yes">хотите картошку?</span>
+<span><input type="checkbox" value="yes">и сиропчик</span>
+<br><span><input type="checkbox" value="yes">а макароны?</span>
+<div><input type="checkbox" value="yes">кетчуп добавить?</div>
+
+<br><label for="lala">3. Как дела?</label>
+<div>так себе<input type="range" id="lala" name="dela">отлично</div>
+<br><label for="cvet"> 4. Ваш любимый цвет </label>
+<div><input type="color" id="cvet"></div>
+<br>5. Ваш любимый мем
+<div><input type="file"></div>
+
+<br><input type="submit" value="Отправить"> 
+
+        </form>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            </style>
+    </body>
+        </html>

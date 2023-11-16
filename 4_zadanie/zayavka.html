@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="mailto:aleksandrarudomanova80@gmail.com" method="get" name="forma">
+<h1>Создайте резюме</h1>
+<fieldset>
+    <legend>Рамка чтоб не так скучно было</legend>
+<br>
+<label for="FI">Введите ваше имя</label>
+<br><input type="text" name="FIO" id="FI" placeholder="ваше ФИО">
+<br><label for="vozrast">Введите ваш возраст</label>
+<br><input type="text" name="voz" id="vozrast" placeholder="возраст">
+</fieldset>
+<br><label for="robot">вы не робот?</label>
+<br><input type="checkbox" value="yes" id="robot" name="vinerobot">
+<br>укажите ваш пол
+<br><div><input type="radio" id="female" value="female" name="pol"><label for="female">Женский </label> <input type="radio" id="male" value="male" name="pol"> 
+<label for="male">мужской </label></div>
+<hr>
+<br><label for="text">Почему мы должны принять на работу именно вас?</label>
+<br><textarea cols="100" rows="20" placeholder="Введите здесь свой текст" id="text">
+</textarea>
+<div><label for="lalal">Какую должность вы бы хотели занять?</label>
+<br><select id="lalal" name="dolshnost">
+    <optgroup label="Выберите должность"></optgroup>
+    <option value="design">Дизайнер</option>
+    <option value="test">Тестировщик</option>
+    <option value="programm">Программист</option>
+</select></div>
+<br><label for="VYZ">Учебное заведение</label>
+<br><input type="text" name="VYZ" id="VYZ" placeholder="название учебного заведения" size="25">
+<br><input type="radio" value="zakonchila" name="status"><label for="female">Закончил(a) </label> <input type="radio" id="male" value="uchus" name="status"> 
+<label for="male" class="light">Учусь </label>
+        </form>
+        <style>
+            label{
+                color: darkblue;
+                border: 2px;
+            }
+            h1 {
+                text-align:center;
+                font-size: 50px;
+                color:darkblue;
+            }
+            legend {
+                color: darkorange;
+            }
+            
+        </style>
+    </body>
+</html>

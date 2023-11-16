@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <h1>Опрос</h1>
+<label for="vozrast">Вам есть 18?</label>        
+<br><input type="checkbox" value="yes" name="est18" id="vozrast" required>
+<br><label for="cot">1. Кошки или собаки?</label>
+<table name="cot">
+    <tr><td><input type="checkbox" value="koshka" name="favanimal" id="koshka">
+        <label for="koshka">кошки</label> </td>
+    <td><input type="checkbox" value="sobaka" name="favanimal" id="sobaka">
+    <label for="sobaka">собаки</label> </td></tr>
+</table>
+<br>2. Звучание какого инструмента вам нравится больше всего?
+<div><input type="radio" id="skripka" value="skripka" name="instrument"><label for="skripka">Скрипка </label> 
+<input type="radio" id="f-no" value="fono" name="instrument"> 
+    <label for="f-no">Фортепиано </label>
+    <br><input type="radio" id="guitar" value="guitar" name="instrument"><label for="guitar">Гитара </label> 
+    <input type="radio" id=" arfa" value="arfa" name="instrument"> 
+        <label for="arfa">Арфа </label></div>
+    <div>
+        <label for="kniga">3. Ваша любимая книга/любимые книги</label>
+        <br><input type="text" id="kniga">
+    </div>
+<br><input type="submit" value="Отправить"> 
+        </form>
+        <style>
+            body {
+                height: 100vh;
+                background: linear-gradient(to bottom right, #ccddff, #9890e3, #ebb1f4);
+            }
+            div {
+                padding-top: 15px;
+            }
+        </style>
+    </body>
+</html>
